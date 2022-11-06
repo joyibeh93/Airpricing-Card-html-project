@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-color:  #2debf9;
+    border:1px solid  #2debf9;
+    max-width:280px;
+    height:770px;
+    margin:40px auto;
+    border-radius: 15px;
+}
+.cont-pop{
+    background-color:blue;
+    color:white;
+    padding:15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 18px;
+    font-weight: 700px;
+  
+}
+h3{
+    margin-top: 40px;
+    margin-left: 13px;
+}
+.team{
+    margin-left: 13px;
+    margin-top: 15px;
+    font-size: 22px;
+    width:230px;
+    font-weight: 500;
+}
+.price{
+    display:flex;
+    margin:40px 10px 10px;
+}
+.price h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+.per-billing{
+    width:130px;
+    margin-top: 25px;
+    margin-left:15px;
+    font-weight: 500;
+}
+.monthly-bill{
+    margin: 10px ;
+}
+button{
+    display: block;
+    margin:10px auto;
+    Padding:13px 70px;
+    border-radius: 20px;
+    border:none;
+    background-color: #176ef0;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+} 
+button:hover{
+    background-color: rgb(7, 90, 245);
+    cursor: pointer;
+}
+.every{
+    margin-left:10px;
+}
+ol{
+    margin-top: 10px;
+}
+ol li{
+    list-style-type: circle;
+    margin-left: 30px;
+    line-height: 1.5em;
+}
+span{
+    border-bottom: 3px dotted black;
+}
+
